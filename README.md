@@ -19,6 +19,10 @@ A beginner MLOps foundation project that compares a naive majority-class baselin
 
 The generated `artifacts` folder is intentionally excluded from Git. Recreate the artifact by running `train.py`.
 
+## Threshold trade-off
+
+The Secret Mission compares the default model decision with a 0.35 probability threshold on held-out data. Lowering the threshold can increase attrition recall while also increasing false-positive alerts. Any real HR threshold would require stakeholder review, fairness testing, legal review, and ongoing monitoring.
+
 ## Responsible-use limitations
 
 This is a synthetic educational demonstration. It is not validated for real employees and must not be used for hiring, discipline, termination, promotion, compensation, or retention decisions. A real HR system would require representative data, consent and privacy controls, bias and fairness testing, explainability, legal review, human oversight, access controls, monitoring, and an appeal process.
